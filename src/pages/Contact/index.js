@@ -145,49 +145,35 @@ const Contact = () => {
           </div>
           <div className="flex items-center my-6">
             <FaPhoneAlt className="text-2xl mr-8 hover:text-primary cursor-pointer duration-300"></FaPhoneAlt>
-            <h3 className="font-medium text-primary">+62 823 6148 4992</h3>
+            <h3 className="font-medium text-primary">+94717071104</h3>
           </div>
           <div className="flex items-center my-6">
             <MdEmail className="text-3xl mr-8 hover:text-primary cursor-pointer duration-300"></MdEmail>
-            <h3 className="font-medium text-primary">berthutapea@gmail.com</h3>
+            <h3 className="font-medium text-primary">
+              rishitha.menush@gmail.com
+            </h3>
           </div>
           <div className="flex items-center my-6">
             <FaLocationArrow className="text-2xl mr-8 hover:text-primary cursor-pointer duration-300"></FaLocationArrow>
 
-            <h3 className="font-medium text-primary">
-              Karawang, Jawa Barat, Indonesia
-            </h3>
+            <h3 className="font-medium text-primary">Chiaw, Sri Lanka</h3>
           </div>
           <div className="mt-8 flex items-center">
             <h3 className="text-xl text-neutral">Social</h3>
             <div className="bg-gray-400 w-10 h-[2px] mx-4"></div>
             <a
-              href="https://linkedin.com/in/gilberthutapea"
+              href="https://www.linkedin.com/in/rishitha-menusha-579813276/"
               target="blank"
               className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
               <FaLinkedin></FaLinkedin>
             </a>
             <a
-              href="https://www.github.com/berthutapea"
+              href="https://github.com/rishithamenush"
               target="blank"
               className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
               <FaGithubSquare></FaGithubSquare>
-            </a>
-            <a
-              href="https://twitter.com/GilbertHutapeaa"
-              target="blank"
-              className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
-            >
-              <FaTwitterSquare></FaTwitterSquare>
-            </a>
-            <a
-              href="https://www.instagram.com/bethup97/"
-              target="blank"
-              className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
-            >
-              <FaInstagramSquare></FaInstagramSquare>
             </a>
           </div>
         </motion.div>
