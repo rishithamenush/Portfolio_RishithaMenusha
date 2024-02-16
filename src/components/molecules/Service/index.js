@@ -69,7 +69,7 @@ const Service = () => {
         <p className="text-neutral max-w-xl mb-6 font-medium translate-y-[-20%] sm:translate-y-[-0%] text-center">
           "I offer web development services, creating fully responsive static
           websites using HTML, CSS, and modern frameworks like Bootstrap and
-          Tailwind, ensuring your site looks great on any device.",
+          Tailwind, ensuring site looks great on any device.",
         </p>
       ),
     },
@@ -82,7 +82,7 @@ const Service = () => {
         <p className="text-neutral max-w-xl mb-6 font-medium translate-y-[-20%] sm:translate-y-[-0%] text-center">
           "I specialise in connecting web databases to servers and solving any
           database-related issues using advanced techniques. My expertise
-          ensures seamless operation and optimised database performance for your
+          ensures seamless operation and optimised database performance for
           projects.",
         </p>
       ),
