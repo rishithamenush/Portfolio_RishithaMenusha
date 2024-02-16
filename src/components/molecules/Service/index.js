@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { BiPalette } from "react-icons/bi";
-import { DiAtom } from "react-icons/di";
-import { FiServer } from "react-icons/fi";
+import { FiLayers } from "react-icons/fi";
+import { FaMobileAlt } from "react-icons/fa";
+import { MdSchool } from "react-icons/md";
+import { FaCode } from "react-icons/fa";
+import { FaDatabase } from "react-icons/fa";
+
 import {
   headingAnimation,
   sectionBodyAnimation,
@@ -26,50 +29,69 @@ const Service = () => {
   const services = [
     {
       id: 1,
-      title: "Front End Development",
-      icon: <DiAtom />,
-      description:
-        "As a Front-end developer, I would love to develope any front-end application using React and its libraries.",
+      title: "Mobile App Development",
+      icon: <FaMobileAlt />,
+
+      description: (
+        <p className="text-neutral max-w-xl mb-6 font-medium translate-y-[-20%] sm:translate-y-[-0%] text-center">
+          "I develop mobile apps with Flutter, Swift, Java, and other
+          technologies to meet specific client needs and requirements.",
+        </p>
+      ),
     },
     {
       id: 2,
-      title: "MERN Development",
-      icon: <FiServer />,
-      description:
-        "I am very familiar with NodeJS, Express JS, and MongoDB/Mongoose. So I can build full-stack application with MERN.",
+      title: "FullStack Development",
+      icon: <FiLayers />,
+      description: (
+        <p className="text-neutral max-w-xl mb-6 font-medium translate-y-[-20%] sm:translate-y-[-0%] text-center">
+          "I am very familiar with ReachJS, and MongoDB/Mongoose. So I can build
+          full-stack application with FullStack Development.",
+        </p>
+      ),
     },
     {
       id: 3,
-      title: "Web Design",
-      icon: <BiPalette />,
-      description:
-        "I also provide Fully Responsive Static Website Design with HTML, CSS, Bootstrap, Tailwind.",
+      title: "Assignment Healper",
+      icon: <MdSchool />,
+      description: (
+        <p className="text-neutral max-w-xl mb-6 font-medium translate-y-[-20%] sm:translate-y-[-0%] text-center">
+          "I help students with their assignments, offering support in various
+          subjects to improve their understanding and boost their grades.",
+        </p>
+      ),
     },
-    // {
-    //   id: 4,
-    //   title: "Web Management",
-    //   icon: <FiServer />,
-    //   description:
-    //     "I will manage any kinds of website. Data Management, Component management, Service management and so on.",
-    // },
-    // {
-    //   id: 5,
-    //   title: "Backend Development",
-    //   icon: <FiServer />,
-    //   description:
-    //   "MVC Architectural Backend Development with Mongoose (Schema, Model etc) to manage the server easily.",
-    // },
-    // {
-    //   id: 6,
-    //   title: "Database Management",
-    //   icon: <FiServer />,
-    //   description:
-    //     "Connecting Web Database to the server. Fixing All kinds of issue with related to database with database advanced operators.",
-    // },
+    {
+      id: 4,
+      title: "Web Development",
+      icon: <FaCode />,
+      description: (
+        <p className="text-neutral max-w-xl mb-6 font-medium translate-y-[-20%] sm:translate-y-[-0%] text-center">
+          "I offer web development services, creating fully responsive static
+          websites using HTML, CSS, and modern frameworks like Bootstrap and
+          Tailwind, ensuring your site looks great on any device.",
+        </p>
+      ),
+    },
+
+    {
+      id: 5,
+      title: "Database Management",
+      icon: <FaDatabase />,
+      description: (
+        <p className="text-neutral max-w-xl mb-6 font-medium translate-y-[-20%] sm:translate-y-[-0%] text-center">
+          "I specialise in connecting web databases to servers and solving any
+          database-related issues using advanced techniques. My expertise
+          ensures seamless operation and optimised database performance for your
+          projects.",
+        </p>
+      ),
+    },
   ];
   return (
-    <div className="py-20 parent"
-    // style={{ backgroundColor: "#313131" }}
+    <div
+      className="py-20 parent"
+      // style={{ backgroundColor: "#313131" }}
     >
       <motion.div
         className="mb-12"
@@ -94,10 +116,11 @@ const Service = () => {
         {services?.map((service) => (
           <div
             key={service.id}
-            className={`${service.id % 2 === 0
-              ? "bg-accent shadow-lg"
-              : "bg-[#313131] shadow-md"
-              } rounded-lg p-6 hover:shadow-primary cursor-pointer duration-300`}
+            className={`${
+              service.id % 2 === 0
+                ? "bg-accent shadow-lg"
+                : "bg-[#313131] shadow-md"
+            } rounded-lg p-6 hover:shadow-primary cursor-pointer duration-300`}
           >
             <div className="mb-4 text-center">
               <span className="inline-block text-5xl text-primary">
