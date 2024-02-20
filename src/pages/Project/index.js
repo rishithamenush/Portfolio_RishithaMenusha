@@ -86,7 +86,7 @@ const Project = () => {
                 filterItem("business");
               }}
             >
-              Business
+              Freelance Projects
             </button>
             <button
               className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
@@ -97,7 +97,7 @@ const Project = () => {
                 filterItem("personal");
               }}
             >
-              Personal
+              Individual Projects
             </button>
             <button
               className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
@@ -108,7 +108,7 @@ const Project = () => {
                 filterItem("game");
               }}
             >
-              Game
+              assignment writing
             </button>
           </div>
 
