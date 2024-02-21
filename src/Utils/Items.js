@@ -284,19 +284,11 @@ const Items = [
       "Plagiarism Checker",
       "24/7 Support",
     ],
-    technologies: [
-      "React",
-      "CSS",
-      "React Hooks",
-      "React Router",
-      "React Redux",
-    ],
+    technologies: ["Turnitin", "Grammerly"],
     title: "Bachelor of Computer Science Degree Modules Assignments",
     description:
-      "Managing Bachelor of Computer Science degree assignments from clients such as Esoft and Westminster University, completing diverse modules and projects. Over the years, I've successfully delivered assignments for approximately 100 clients.",
+      "Managing Bachelor of Computer Science degree assignments from clients such as Esoft, Westminster University,Curtin University, Torrens University and etc..  completing diverse modules and projects. Over the years, I've successfully delivered assignments for approximately 100 clients.",
     category: "AssignmentWriting",
-    liveLink: "https://mariojumpp.vercel.app/",
-    codeLink: "https://github.com/berthutapea/mario-jump-game",
   },
 ];
 
