@@ -70,18 +70,20 @@ const About = () => {
                 repeat={Infinity}
               />
             </div>
-            <p className="text-neutral font-medium text-center translate-y-[-100%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
+            <p className="text-neutral font-medium text-center translate-y-[-100%] sm:translate-y-[-0%] sm:mb-2 md:text-justify">
               I am a versatile software developer with a strong foundation in a
               broad range of programming languages and technologies, including
               Dart, Java, JavaScript, Flutter, React, MySQL, MS SQL, SQLite,
-              Firebase, and PHP. My expertise lies in creating dynamic and
-              responsive applications across web and mobile platforms, ensuring
-              high performance, scalability, and user-centric design.
+              Firebase, and PHP.{" "}
             </p>
-            <br />
-            <p className="text-neutral font-medium text-center translate-y-[-150%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
+            <p className="text-neutral font-medium text-center translate-y-[-100%] sm:translate-y-[-0%] sm:mb-2 md:text-justify">
+              My expertise lies in creating dynamic and responsive applications
+              across web and mobile platforms, ensuring high performance,
+              scalability, and user-centric design.
+            </p>
+            <p className="text-neutral font-medium text-center translate-y-[-150%] sm:translate-y-[-0%] sm:mb-2 md:text-justify">
               My passion for solving complex problems and creating innovative
-              solutions drives me to stay up-to-date with the latest
+              solutions drives me to stay up to date with the latest
               technologies and trends in the industry.
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-1 gap-y-6 mt-4 text-center translate-y-[-50%] sm:translate-y-[-0%] sm:mb-2 md:text-left ">
