@@ -85,22 +85,8 @@ const ProjectDetails = () => {
         </ul>
       </div>
       <div className="flex items-center mt-8">
-        <a href={item?.liveLink} className="mr-4" target="blank">
-          <PrimaryBtn>
-            <span>Visit Now</span>
-            <span>
-              <FaLink />
-            </span>
-          </PrimaryBtn>
-        </a>
-        <a href={item?.codeLink} target="blank">
-          <SecondaryBtn>
-            <span>Source Code</span>
-            <span>
-              <FaCode />
-            </span>
-          </SecondaryBtn>
-        </a>
+        <a href={item?.liveLink} className="mr-4" target="blank"></a>
+        <a href={item?.codeLink} target="blank"></a>
       </div>
     </div>
   );
