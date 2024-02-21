@@ -1,7 +1,8 @@
 const Items = [
   {
     id: 1,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1682699543/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-1_rmh7lp.png",
+    mainImage:
+      "https://res.cloudinary.com/du541igfh/image/upload/v1682699543/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-1_rmh7lp.png",
     img: [
       "https://res.cloudinary.com/du541igfh/image/upload/v1682699543/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-1_rmh7lp.png",
       "https://res.cloudinary.com/du541igfh/image/upload/v1682699548/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-2_p3chy5.png",
@@ -39,7 +40,8 @@ const Items = [
   },
   {
     id: 2,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1682701479/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-4_kmaye9.png",
+    mainImage:
+      "https://res.cloudinary.com/du541igfh/image/upload/v1682701479/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-4_kmaye9.png",
     img: [
       "https://res.cloudinary.com/du541igfh/image/upload/v1682701456/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-1_jppjdj.png",
       "https://res.cloudinary.com/du541igfh/image/upload/v1682701463/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-2_ptr4lg.png",
@@ -94,7 +96,8 @@ const Items = [
   },
   {
     id: 3,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1684312778/Blog%20Portfolio%20Gilbert/Project/mern-movie/img-1_lcun2a.png",
+    mainImage:
+      "https://res.cloudinary.com/du541igfh/image/upload/v1684312778/Blog%20Portfolio%20Gilbert/Project/mern-movie/img-1_lcun2a.png",
     img: [
       "https://res.cloudinary.com/du541igfh/image/upload/v1684312778/Blog%20Portfolio%20Gilbert/Project/mern-movie/img-1_lcun2a.png",
       "https://res.cloudinary.com/du541igfh/image/upload/v1684312777/Blog%20Portfolio%20Gilbert/Project/mern-movie/img-2_ar1fex.png",
@@ -155,7 +158,8 @@ const Items = [
   },
   {
     id: 4,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1682772430/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-2_vsab0u.png",
+    mainImage:
+      "https://res.cloudinary.com/du541igfh/image/upload/v1682772430/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-2_vsab0u.png",
     img: [
       "https://res.cloudinary.com/du541igfh/image/upload/v1682772430/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-1_gywmlj.png",
       "https://res.cloudinary.com/du541igfh/image/upload/v1682772430/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-2_vsab0u.png",
@@ -227,7 +231,8 @@ const Items = [
   },
   {
     id: 5,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683869747/Blog%20Portfolio%20Gilbert/Project/mern-student-management-system/img-1_yhedpu.png",
+    mainImage:
+      "https://res.cloudinary.com/du541igfh/image/upload/v1683869747/Blog%20Portfolio%20Gilbert/Project/mern-student-management-system/img-1_yhedpu.png",
     img: [
       "https://res.cloudinary.com/du541igfh/image/upload/v1683869747/Blog%20Portfolio%20Gilbert/Project/mern-student-management-system/img-1_yhedpu.png",
       "https://res.cloudinary.com/du541igfh/image/upload/v1683869747/Blog%20Portfolio%20Gilbert/Project/mern-student-management-system/img-2_uktrxk.png",
@@ -268,19 +273,16 @@ const Items = [
   },
   {
     id: 6,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1682964283/Blog%20Portfolio%20Gilbert/Project/mario-jump-game/img-2_iwduig.png",
-    img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682964283/Blog%20Portfolio%20Gilbert/Project/mario-jump-game/img-1_gpiiro.png",
+    mainImage:
       "https://res.cloudinary.com/du541igfh/image/upload/v1682964283/Blog%20Portfolio%20Gilbert/Project/mario-jump-game/img-2_iwduig.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682964283/Blog%20Portfolio%20Gilbert/Project/mario-jump-game/img-3_sk2hyn.png",
-    ],
+
     features: [
-      "Mobile Responsive",
-      "Beautiful Animations",
-      "Rapid Controls",
-      "High Score",
-      "Mario Background Music",
-      "Jump & Game Over Sound Effect",
+      "User Registration and Profile Management",
+      "Assignment Posting",
+      "File Upload",
+      "Progress Tracking",
+      "Plagiarism Checker",
+      "24/7 Support",
     ],
     technologies: [
       "React",
@@ -289,82 +291,12 @@ const Items = [
       "React Router",
       "React Redux",
     ],
-    title: "Mario Jump",
+    title: "Bachelor of Computer Science Degree Modules Assignments",
     description:
-      "Mario Jump is an endless running game inspired by the famous Google Chrome's T-Rex Dinosaur Game 🦖. The game is built entirely with ReactJS ⚛ and Redux Toolkit 🔧.",
-    category: "game",
+      "Managing Bachelor of Computer Science degree assignments from clients such as Esoft and Westminster University, completing diverse modules and projects. Over the years, I've successfully delivered assignments for approximately 100 clients.",
+    category: "AssignmentWriting",
     liveLink: "https://mariojumpp.vercel.app/",
     codeLink: "https://github.com/berthutapea/mario-jump-game",
-  },
-  {
-    id: 7,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1682944695/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-3_t6uxoj.png",
-    img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682944091/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-1_gqero4.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682944091/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-2_ukjdh2.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682944695/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-3_t6uxoj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682944091/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-4_btevir.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682944091/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-5_oakjx2.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682944092/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-6_pqefy9.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682944091/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-7_wfrvb7.png",
-    ],
-    features: [
-      "User registration and login",
-      "Select the type of question and the difficulty level of the question",
-      "Juis time is running and after the time is up it stops automatically",
-      "The final results of the answers answered will be shown",
-      "Incorrect and correct answer results will be displayed",
-      "Responsive Design",
-    ],
-    technologies: [
-      "React",
-      "React Vite",
-      "Tailwind CSS",
-      "Firebase Authentication",
-      "Framer Motion",
-      "React Firebase Hooks",
-      "React Icons",
-    ],
-    title: "Bert Quiz",
-    description:
-      "Fullstack open source quiz application",
-    category: "personal",
-    liveLink: "https://bertquiz.vercel.app/",
-    codeLink: "https://github.com/berthutapea/react-quiz",
-  },
-  {
-    id: 8,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-    img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
-    ],
-    features: [
-      "Mobile Responsive",
-      "Beautiful Animations",
-      "Product",
-      "Pricing",
-      "Testimonial",
-      "Contact",
-    ],
-    technologies: [
-      "React",
-      "React Vite",
-      "Tailwind CSS",
-      "Framer Motion",
-      "React Icons",
-      "React Hooks",
-    ],
-    title: "Shopify",
-    description:
-      "Open source landing page shopify application",
-    category: "personal",
-    liveLink: "https://shopifyy.vercel.app/",
-    codeLink: "https://github.com/berthutapea/react-shopify-landing",
   },
 ];
 

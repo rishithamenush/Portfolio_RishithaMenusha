@@ -101,11 +101,11 @@ const Project = () => {
             </button>
             <button
               className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
-                activeBtn === "game" && "active-btn"
+                activeBtn === "AssignmentWriting" && "active-btn"
               }`}
               onClick={() => {
-                setActiveBtn("game");
-                filterItem("game");
+                setActiveBtn("AssignmentWriting");
+                filterItem("AssignmentWriting");
               }}
             >
               assignment writing
