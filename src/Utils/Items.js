@@ -275,7 +275,7 @@ const Items = [
   {
     id: 6,
     mainImage:
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682964283/Blog%20Portfolio%20Gilbert/Project/mario-jump-game/img-2_iwduig.png",
+      "https://res.cloudinary.com/dguaflt7t/image/upload/v1708793030/ass_nhf6ej.png",
 
     features: [
       "User Registration and Profile Management",

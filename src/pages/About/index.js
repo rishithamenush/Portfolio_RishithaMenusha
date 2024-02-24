@@ -86,7 +86,7 @@ const About = () => {
               solutions drives me to stay up to date with the latest
               technologies and trends in the industry.
             </p>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-1 gap-y-6 mt-4 text-center translate-y-[-50%] sm:translate-y-[-0%] sm:mb-2 md:text-left ">
+            <div className="grid grid-cols-1 lg:grid-cols-1 gap-x-1 gap-y-3.5 mt-4 text-center translate-y-[-50%] sm:translate-y-[-0%] sm:mb-2 md:text-left ">
               <h2 className="font-medium">
                 <span className="mr-2 text-primary">Name : </span>Rishitha
                 Menusha
@@ -100,7 +100,7 @@ const About = () => {
               </h2>
               <h2 className="font-medium">
                 <span className="mr-2 text-primary">Email : </span>
-                rishitha.menush@gmai
+                rishitha.menush@gmail.com
               </h2>
 
               <a
