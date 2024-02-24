@@ -8,7 +8,6 @@ import {
   Navbar,
   Footer,
 } from "./components";
-import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 const Home = React.lazy(() => import("./pages/Home"));
