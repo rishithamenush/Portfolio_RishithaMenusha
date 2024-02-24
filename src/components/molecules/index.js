@@ -1,10 +1,7 @@
 import Banner from "./Banner";
-import BlogDetail from "./BlogDetail";
-import BlogIndex from "./BlogIndex";
 import Education from "./Education";
 import EmployeeSalaryManagementRepair from "./EmployeeSalaryManagementRepair";
 import Footer from "./Footer";
-import Information from "./Information";
 import MernBlogRepair from "./MernBlogRepair";
 import MySkill from "./MySkill";
 import Navbar from "./Navbar";
@@ -14,12 +11,9 @@ import Service from "./Service";
 
 export {
   Banner,
-  BlogDetail,
-  BlogIndex,
   Education,
   EmployeeSalaryManagementRepair,
   Footer,
-  Information,
   MernBlogRepair,
   MySkill,
   Navbar,
