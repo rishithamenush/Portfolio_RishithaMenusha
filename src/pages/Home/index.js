@@ -9,7 +9,6 @@ const Home = () => {
       <Banner />
       <Service />
       <Project />
-      <Information />
       <Contact />
     </div>
   );
