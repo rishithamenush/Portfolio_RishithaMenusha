@@ -7,8 +7,6 @@ import {
   ProjectDetails,
   Navbar,
   Footer,
-  MernBlogRepair,
-  EmployeeSalaryManagementRepair,
 } from "./components";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
