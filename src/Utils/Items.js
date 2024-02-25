@@ -2,7 +2,7 @@ const Items = [
   {
     id: 1,
     mainImage:
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682699543/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-1_rmh7lp.png",
+      "https://res.cloudinary.com/dguaflt7t/image/upload/v1708835229/iPhone_Mockup_Webinar_Instagram_Post_k0axoc.png",
     img: [
       "https://res.cloudinary.com/du541igfh/image/upload/v1682699543/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-1_rmh7lp.png",
       "https://res.cloudinary.com/du541igfh/image/upload/v1682699548/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-2_p3chy5.png",
@@ -31,7 +31,7 @@ const Items = [
       "Email JS",
       "Framer Motion",
     ],
-    title: "Msn Production",
+    title: "SL Shop",
     description:
       "PT. MULIA SEJATI NUSANTARA Established on June 24, 2019, a limited liability company engaged in supplier & contractor services. Then on January 22 2022 PT. MULIA SEJATI NUSANTARA Opening a new business branch in the Technology Sector which includes Website Creation, Mobile Applications, Branding, Creative Content, Digital Marketing & Advertising. This branch is called Mulia Sejati Nusantara Production or in short MSN PRODUCTION.",
     category: "business",
